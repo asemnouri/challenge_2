@@ -1,11 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const json = document.querySelector('#json')
+    const jsonData = document.querySelector('#jsonData')
     const csv = document.querySelector('#csv')
-    const button = document.querySelector('#button')
-    button.addEventListener('click', () => {
-        console.log("click", json.value)
-        loadXMLDoc()
-    })
+    const Button = document.querySelector('#button')
+
+    Button.addEventListener('click', loadXMLDoc)
 
 
     function loadXMLDoc() {
@@ -28,6 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         xmlhttp.open("POST", '/');
         xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-        xmlhttp.send((json.value));
+        xmlhttp.send((jsonData.value));
     }
 })

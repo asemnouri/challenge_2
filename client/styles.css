@@ -1,5 +1,7 @@
 body{
     padding: 70px;
+    background: rgb(211,214,208);
+    background: linear-gradient(90deg, rgba(211,214,208,1) 0%, rgba(225,227,223,1) 55%, rgba(183,190,182,1) 100%);
 }
 .container{
      display: flex;
