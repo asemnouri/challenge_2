@@ -1,0 +1,13 @@
+body{
+    padding: 70px;
+}
+.container{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-style{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
