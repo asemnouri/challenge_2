@@ -13,10 +13,10 @@
     <div class="container">
         <div class="card text-white bg-secondary mb-3 " style="min-width: 40rem;">
             <div class="card-header ">JSON TO CSV</div>
-            <div class="card-body card-style">
-                <input type="text" class="form-control" placeholder="CSV" aria-label="Recipient's username" aria-describedby="button-addon2" style="max-width: 10rem;">
-                    <button type="button" class="btn btn-danger">CONVERT</button>
-                    <input type="text" class="form-control" placeholder="JSON" aria-label="Recipient's username" aria-describedby="button-addon2" style="max-width: 10rem;">
+            <div class="card-body card-style" method="post">
+                <input type="text" class="form-control" placeholder="JSON"  name="json" id="jsonData"aria-label="Recipient's username" aria-describedby="button-addon2" style="max-width: 10rem;">
+                    <button type="button" class="btn btn-danger" id="button">CONVERT</button>
+                    <input type="text" class="form-control" placeholder="CSV" aria-label="Recipient's username" aria-describedby="button-addon2" style="max-width: 10rem;">
                
             </div>
           </div>

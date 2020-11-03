@@ -11,3 +11,6 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+input{
+    min-height: 150px;
+}
